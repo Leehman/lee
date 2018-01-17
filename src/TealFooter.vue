@@ -57,8 +57,6 @@
       </v-card-actions>
     </v-card>
   </v-footer>
-
-
 </template>
 
 <script>

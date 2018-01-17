@@ -2,13 +2,11 @@
   <v-app>
     <v-content>
       <indigo-footer></indigo-footer>
-
       <teal-footer></teal-footer>
 
     </v-content>
   </v-app>
  </template>
-
 
 
 <script>
