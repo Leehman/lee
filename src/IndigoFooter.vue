@@ -21,7 +21,7 @@
       </v-card>
       <v-card flat tile class="indigo lighten-1">
          <v-card-text class="white--text">
-            &copy; 201 Copyright:
+            &copy; 2018 Copyright:
             <strong>Vuetifyjs.com</strong>
             <v-spacer></v-spacer>
         </v-card-text>
