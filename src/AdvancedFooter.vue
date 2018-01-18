@@ -46,7 +46,7 @@
 <script>
   export default {
     data: () => ({
-      icons: ['fa-facebook', 'fa-twitter', 'fa-google-plus', 'fa-linkedin', 'fa-instagram'],
+      icons: ['fa-facebook color="red lighten-2"', 'fa-twitter', 'fa-google-plus', 'fa-linkedin', 'fa-instagram'],
       rows: [
         {
           title: 'FOOTER CONTENT',
