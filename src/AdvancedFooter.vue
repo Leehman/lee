@@ -18,24 +18,24 @@
         </v-layout>
         <div class="white--text text-xs-center">
           Register for free
-          <v-btn round color="red accent-3" dark>
+          <v-btn color="red accent-3" dark round large>
             <v-icon dark></v-icon>SIGN UP!
           </v-btn>
           <v-spacer></v-spacer>
           <v-btn color="blue" fab class="white--text mx-3">
-            <v-icon size="24px">fa-facebook</v-icon>
+            <v-icon size="18px">fa-facebook</v-icon>
           </v-btn>
           <v-btn class="white--text mx-3" fab color="teal">
-            <v-icon size="24px">fa-twitter</v-icon>
+            <v-icon size="18px">fa-twitter</v-icon>
           </v-btn>
           <v-btn class="white--text mx-3" fab color="green">
-            <v-icon size="24px">fa-google-plus</v-icon>
+            <v-icon size="18px">fa-google-plus</v-icon>
           </v-btn>
           <v-btn class="white--text mx-3" fab color="red">
-            <v-icon size="24px">fa-linkedin</v-icon>
+            <v-icon size="18px">fa-linkedin</v-icon>
           </v-btn>
           <v-btn class="white--text mx-3" fab color="pink">
-            <v-icon size="24px">fa-instagram</v-icon>
+            <v-icon size="18px">fa-instagram</v-icon>
           </v-btn>
         </div>
       </v-card-text>
