@@ -18,18 +18,24 @@
         </v-layout>
         <div class="white--text text-xs-center">
           Register for free
-          <v-btn round color="pink" dark>
+          <v-btn round color="red accent-3" dark>
             <v-icon dark></v-icon>SIGN UP!
           </v-btn>
           <v-spacer></v-spacer>
-          <v-btn
-           v-for="icon in icons"
-           :key="icon"
-           icon
-           dark
-           class="mx-3"
-          >
-            <v-icon size="24px">{{ icon }}</v-icon>
+          <v-btn color="blue" fab class="white--text mx-3">
+            <v-icon size="24px">fa-facebook</v-icon>
+          </v-btn>
+          <v-btn class="white--text mx-3" fab color="teal">
+            <v-icon size="24px">fa-twitter</v-icon>
+          </v-btn>
+          <v-btn class="white--text mx-3" fab color="green">
+            <v-icon size="24px">fa-google-plus</v-icon>
+          </v-btn>
+          <v-btn class="white--text mx-3" fab color="red">
+            <v-icon size="24px">fa-linkedin</v-icon>
+          </v-btn>
+          <v-btn class="white--text mx-3" fab color="pink">
+            <v-icon size="24px">fa-instagram</v-icon>
           </v-btn>
         </div>
       </v-card-text>
@@ -46,7 +52,6 @@
 <script>
   export default {
     data: () => ({
-      icons: ['fa-facebook color="red lighten-2"', 'fa-twitter', 'fa-google-plus', 'fa-linkedin', 'fa-instagram'],
       rows: [
         {
           title: 'FOOTER CONTENT',
