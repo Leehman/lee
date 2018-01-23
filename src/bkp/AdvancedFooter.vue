@@ -22,7 +22,7 @@
             <v-icon dark></v-icon>SIGN UP!
           </v-btn>
           <v-spacer></v-spacer>
-          <v-btn color="blue" fab class="white--text mx-3">
+          <v-btn class="white--text mx-3" fab color="blue">
             <v-icon size="18px">fa-facebook</v-icon>
           </v-btn>
           <v-btn class="white--text mx-3" fab color="teal">
@@ -42,7 +42,7 @@
       <v-card-actions class="white--text grey darken-3">
         <v-spacer></v-spacer>
         <span>&copy; 2018 Copyright:</span>
-        <strong class="white--text">Vuetifyjs.com</strong>
+          <strong class="white--text">Vuetifyjs.com</strong>
         <v-spacer></v-spacer>
       </v-card-actions>
     </v-card>
