@@ -4,29 +4,15 @@
       <v-card-title class="teal white--text" width="100%">
         <strong class="subheading">Get connected with us on social networks!</strong>
         <v-spacer></v-spacer>
-          <v-btn
-           v-for="icon in icons"
-           :key="icon"
-           icon
-           dark
-           class="mx-3"
-          >
+        <v-btn v-for="icon in icons" :key="icon" icon dark class="mx-3">
           <v-icon size="24px">{{ icon }}</v-icon>
         </v-btn>
       </v-card-title>
       <v-card-text class="grey lighten-3">
         <v-layout>
-          <v-flex
-            v-for="(col, i) in rows"
-            :key="i"
-            xs3
-          >
+          <v-flex v-for="(col, i) in rows" :key="i" xs3>
             <span class="body-2" v-text="col.title.toUpperCase()"></span>
-            <div
-              v-for="(child, i) in col.children"
-              :key="i"
-              v-text="child"
-            ></div>
+            <div v-for="(child, i) in col.children" :key="i" v-text="child"></div>
           </v-flex>
           <v-flex xs3>
             <span class="body-2">CONTACT</span>
@@ -52,7 +38,7 @@
       <v-card-actions class="grey lighten-2">
         <v-spacer></v-spacer>
         <span>&copy; 2018 Copyright:</span>
-          <strong>Vuetifyjs.com</strong>
+        <strong>Vuetifyjs.com</strong>
         <v-spacer></v-spacer>
       </v-card-actions>
     </v-card>
@@ -60,23 +46,22 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      icons: ['fa-facebook', 'fa-twitter', 'fa-google-plus', 'fa-linkedin', 'fa-instagram'],
-      rows: [
-        {
-          title: 'Company Name',
-          children: ['Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit']
-        },
-        {
-          title: 'Products',
-          children: ['MDBootstrap', 'MDWordPress', 'BrandFlow', 'Bootstrap Angular']
-        },
-        {
-          title: 'Useful Links',
-          children: ['Your account', 'Become an Affiliate', 'Shipping Rates', 'Helper']
-        }
-      ]
-    })
-  }
+export default {
+  data: () => ({
+    icons: ['fa-facebook', 'fa-twitter', 'fa-google-plus', 'fa-linkedin', 'fa-instagram'],
+    rows: [{
+        title: 'Company Name',
+        children: ['Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit']
+      },
+      {
+        title: 'Products',
+        children: ['MDBootstrap', 'MDWordPress', 'BrandFlow', 'Bootstrap Angular']
+      },
+      {
+        title: 'Useful Links',
+        children: ['Your account', 'Become an Affiliate', 'Shipping Rates', 'Helper']
+      }
+    ]
+  })
+}
 </script>
