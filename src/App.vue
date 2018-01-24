@@ -3,6 +3,7 @@
   <v-app>
     <v-content>
       <Gl-Subheader></Gl-Subheader>
+      <Elevation-View></Elevation-View>
       <Sub-Header></Sub-Header>
     </v-content>
   </v-app>
@@ -21,6 +22,7 @@
 <script>
   import GlSubheader from './GlSubheader'
   import SubHeader from './SubHeader'
+  import ElevationView from './ElevationView'
   //import TealFooter from './TealFooter'
   //import AdvancedFooter from './AdvancedFooter'
   //import CompanyFooter from './CompanyFooter'
@@ -32,6 +34,7 @@
       //CompanyFooter,
       GlSubheader,
       SubHeader
+      , ElevationView
     }
   }
 </script>
