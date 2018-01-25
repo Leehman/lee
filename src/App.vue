@@ -2,8 +2,10 @@
 
   <v-app>
     <v-content>
-      <Gl-Subheader></Gl-Subheader>
+      <!-- <Gl-Subheader></Gl-Subheader> -->
+      <Image-View></Image-View>
       <Elevation-View></Elevation-View>
+      <Text-View></Text-View>
       <Sub-Header></Sub-Header>
     </v-content>
   </v-app>
@@ -20,9 +22,11 @@
 
 
 <script>
-  import GlSubheader from './GlSubheader'
+  //import GlSubheader from './GlSubheader'
   import SubHeader from './SubHeader'
   import ElevationView from './ElevationView'
+  import TextView from './TextView'
+  import ImageView from './ImageView'
   //import TealFooter from './TealFooter'
   //import AdvancedFooter from './AdvancedFooter'
   //import CompanyFooter from './CompanyFooter'
@@ -32,9 +36,11 @@
       //IndigoFooter,
       //AdvancedFooter,
       //CompanyFooter,
-      GlSubheader,
+      //GlSubheader,
       SubHeader
       , ElevationView
+      , TextView
+      , ImageView
     }
   }
 </script>
