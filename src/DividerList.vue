@@ -3,7 +3,7 @@
   <v-flex xs4 offset-md4 offset-sm1>
     <v-card color="grey darken-1">
       <v-card-title>
-        <span class="headline white--text pl-3">Kentucky Fried </span>
+        <span class="headline white--text pl-3">Portrait View</span>
         <v-spacer></v-spacer>
         <v-btn dark icon>
           <v-icon>chevron_left</v-icon>
