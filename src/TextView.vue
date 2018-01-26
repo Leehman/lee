@@ -4,7 +4,7 @@
     <v-layout row wrap>
       <v-flex xs6 offset-md3 offset-xs1>
         <v-card>
-          <v-slider v-model="selected" prepend-icon="fa-arrows-h" min="0" max="24" thumb-label>
+          <v-slider v-model="selected" prepend-icon="fa-hand-o-right" min="0" max="24" class="pl-3" thumb-label>
           </v-slider>
         </v-card>
       </v-flex>

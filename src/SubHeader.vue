@@ -16,7 +16,7 @@
             <v-flex xs4 v-for="card in cards1" :key="card.title">
               <v-card>
                 <v-card-media height="300px" :src="`https://picsum.photos/200/300?image=586`">
-                  <span class="headline white--text" v-text="card.title"></span>
+                  <span class="headline white--text  pl-3 pt-3" v-text="card.title"></span>
                 </v-card-media>
 
                 <v-card-actions class=“white”>
@@ -40,7 +40,7 @@
             <v-flex xs4 v-for="card in cards1" :key="card.title">
               <v-card>
                 <v-card-media height="300px" :src="`https://picsum.photos/200/300?image=594`">
-                  <span class="headline white--text" v-text="card.title"></span>
+                  <span class="headline white--text   pl-3 pt-3" v-text="card.title"></span>
                 </v-card-media>
 
                 <v-card-actions class=“white”>
