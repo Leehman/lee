@@ -3,6 +3,7 @@
   <v-app>
     <v-content>
       <!-- <Gl-Subheader></Gl-Subheader> -->
+      <Divider-List2></Divider-List2>
       <Divider-List></Divider-List>
       <Image-View></Image-View>
       <Elevation-View></Elevation-View>
@@ -29,6 +30,7 @@
   import TextView from './TextView'
   import ImageView from './ImageView'
   import DividerList from './DividerList'
+  import DividerList2 from './DividerList2'
   //import TealFooter from './TealFooter'
   //import AdvancedFooter from './AdvancedFooter'
   //import CompanyFooter from './CompanyFooter'
@@ -44,6 +46,7 @@
       , TextView
       , ImageView
       , DividerList
+      , DividerList2
     }
   }
 </script>
