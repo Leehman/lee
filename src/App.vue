@@ -2,13 +2,16 @@
 
   <v-app>
     <v-content>
-      <!-- <Gl-Subheader></Gl-Subheader> -->
-      <Divider-List2></Divider-List2>
-      <Divider-List></Divider-List>
+      <!--<Divider-List-Portrait></Divider-List-Portrait>
+      <Divider-List></Divider-List>-->
+      <ChatBottom-Sheet></ChatBottom-Sheet>
+      <!--<Bottom-Sheet2></Bottom-Sheet2>
+        <Sub-Header></Sub-Header>-->
+  <!--
       <Image-View></Image-View>
       <Elevation-View></Elevation-View>
-      <Text-View></Text-View>
-      <Sub-Header></Sub-Header>
+      <Text-View></Text-View>-->
+
     </v-content>
   </v-app>
   <!--
@@ -25,12 +28,14 @@
 
 <script>
   //import GlSubheader from './GlSubheader'
-  import SubHeader from './SubHeader'
-  import ElevationView from './ElevationView'
-  import TextView from './TextView'
-  import ImageView from './ImageView'
-  import DividerList from './DividerList'
-  import DividerList2 from './DividerList2'
+  //import SubHeader from './SubHeader'
+  //import ElevationView from './ElevationView'
+  //import TextView from './TextView'
+  //import ImageView from './ImageView'
+  //import DividerList from './DividerList'
+  //import BottomSheet2 from './BottomSheet2'
+  import ChatBottomSheet from './ChatBottomSheet'
+  //import DividerListPortrait from './DividerListPortrait'
   //import TealFooter from './TealFooter'
   //import AdvancedFooter from './AdvancedFooter'
   //import CompanyFooter from './CompanyFooter'
@@ -41,12 +46,14 @@
       //AdvancedFooter,
       //CompanyFooter,
       //GlSubheader,
-      SubHeader
-      , ElevationView
-      , TextView
-      , ImageView
-      , DividerList
-      , DividerList2
+      //SubHeader
+      //ElevationView
+      ///, TextView
+      //, ImageView
+      //DividerList
+      //, DividerListPortrait
+      ChatBottomSheet
+      //, BottomSheet2
     }
   }
 </script>
