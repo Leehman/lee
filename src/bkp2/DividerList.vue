@@ -1,29 +1,45 @@
 <template>
   <v-layout row>
-    <v-flex xs4 offset-md4 offset-sm3>
+    <v-flex
+      xs12 sm6 offset-sm3>
       <v-card>
-        <v-toolbar class="orange lighten-1" dark>
-          <v-toolbar-side-icon></v-toolbar-side-icon>
+        <v-toolbar
+          class="orange lighten-1"
+          dark>
           <v-toolbar-title>My List</v-toolbar-title>
           <v-spacer></v-spacer>
           <v-btn icon>
             <v-icon>search</v-icon>
           </v-btn>
         </v-toolbar>
-        <v-list two-line class="orange lighten-2">
+        <v-list
+          two-line
+          class="orange lighten-2">
           <template v-for="(item, index) in items">
             <v-subheader
               v-if="item.header"
               :key="item.header"
               class="white--text">{{ item.header }}</v-subheader>
-            <v-divider v-else-if="item.divider" :inset="item.inset" :key="index"></v-divider>
-            <v-list-tile avatar v-else :key="item.title" >
+            <v-divider
+              v-else-if="item.divider"
+              :inset="item.inset"
+              :key="index"></v-divider>
+            <v-list-tile
+              avatar
+              v-else
+              :key="item.title" >
               <v-list-tile-avatar >
                 <img :src="item.avatar" >
               </v-list-tile-avatar>
               <v-list-tile-content>
-                <v-list-tile-title v-html="item.title" class="white--text"></v-list-tile-title>
-                <v-list-tile-sub-title v-html="item.subtitle" class="white--text"></v-list-tile-sub-title>
+                <v-list-tile-title
+                  v-html="item.title"
+                  class="white--text">
+                </v-list-tile-title>
+                <v-list-tile-sub-title
+                  v-html="item.subtitle"
+                  class="white--text">
+                </v-list-tile-sub-title>
               </v-list-tile-content>
             </v-list-tile>
           </template>

@@ -2,12 +2,12 @@
 
   <v-app>
     <v-content>
-      <!--<Divider-List-Portrait></Divider-List-Portrait>
-      <Divider-List></Divider-List>-->
-      <ChatBottom-Sheet></ChatBottom-Sheet>
+      <divider-Portrait></divider-Portrait>
+      <divider-List></divider-List>
+      <!--<ChatBottom-Sheet/>-->
       <!--<Bottom-Sheet2></Bottom-Sheet2>
         <Sub-Header></Sub-Header>-->
-  <!--
+      <!--
       <Image-View></Image-View>
       <Elevation-View></Elevation-View>
       <Text-View></Text-View>-->
@@ -23,37 +23,37 @@
       <advanced-footer></advanced-footer>
     </v-content>
   </v-app>-->
- </template>
+</template>
 
 
 <script>
-  //import GlSubheader from './GlSubheader'
-  //import SubHeader from './SubHeader'
-  //import ElevationView from './ElevationView'
-  //import TextView from './TextView'
-  //import ImageView from './ImageView'
-  //import DividerList from './DividerList'
-  //import BottomSheet2 from './BottomSheet2'
-  import ChatBottomSheet from './ChatBottomSheet'
-  //import DividerListPortrait from './DividerListPortrait'
-  //import TealFooter from './TealFooter'
-  //import AdvancedFooter from './AdvancedFooter'
-  //import CompanyFooter from './CompanyFooter'
+//import GlSubheader from './GlSubheader'
+//import SubHeader from './SubHeader'
+//import ElevationView from './ElevationView'
+//import TextView from './TextView'
+//import ImageView from './ImageView'
+import dividerList from './dividerList'
+//import BottomSheet2 from './BottomSheet2'
+//import ChatBottomSheet from './ChatBottomSheet';
+import dividerPortrait from './dividerPortrait'
+//import TealFooter from './TealFooter'
+//import AdvancedFooter from './AdvancedFooter'
+//import CompanyFooter from './CompanyFooter'
 
-  export default {
-    components: {
-      //IndigoFooter,
-      //AdvancedFooter,
-      //CompanyFooter,
-      //GlSubheader,
-      //SubHeader
-      //ElevationView
-      ///, TextView
-      //, ImageView
-      //DividerList
-      //, DividerListPortrait
-      ChatBottomSheet
-      //, BottomSheet2
-    }
+export default {
+  components: {
+    //IndigoFooter,
+    //AdvancedFooter,
+    //CompanyFooter,
+    //GlSubheader,
+    //SubHeader
+    //ElevationView
+    ///, TextView
+    //, ImageView
+    dividerList
+    , dividerPortrait
+    //ChatBottomSheet
+    //, BottomSheet2
   }
+};
 </script>
